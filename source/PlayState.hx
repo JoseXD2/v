@@ -827,7 +827,7 @@ class PlayState extends MusicBeatState
                  // MINIGAME 1 BACKGROUND
                  
                  
-                minigameone = new FlxSprite().loadGraphic(Paths.image('shadowbonniebgs/sb','shared'));
+                                minigameone = new FlxSprite().loadGraphic(Paths.image('shadowbonniebgs/sb','shared'));
 				minigameone.setGraphicSize(Std.int(minigameone.width * 1.7));
 				minigameone.x = 0;
 				minigameone.y = 0;
@@ -868,8 +868,8 @@ class PlayState extends MusicBeatState
 				add(purplething);
 				
 				cover = new FlxSprite(0, 0);
-		        cover.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-		        cover.setGraphicSize(Std.int(minigamefive.width * 7));
+		                cover.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+		                cover.setGraphicSize(Std.int(minigamefive.width * 7));
 				add(cover);
 				cover.alpha = 1;
 
@@ -884,7 +884,7 @@ class PlayState extends MusicBeatState
 				}
 			default:
 			{
-			           defaultCamZoom = 0.9;
+			                defaultCamZoom = 0.9;
 					curStage = 'stage';
 					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('stageback'));
 					bg.antialiasing = true;
