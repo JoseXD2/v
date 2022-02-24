@@ -27,6 +27,9 @@ class StoryMenuState extends MusicBeatState
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
 		['Nightshift', 'Flashinglights', 'Shadows'],
+		['Nightshift-Hard', 'Flashinglights-Hard', 'Shadows-Hard'],
+		['Nightshift-Easy', 'Flashinglights-Easy', 'Shadows-Easy'],
+		['Nightshift-Freeplay', 'Flashinglights-Freeplay', 'Shadows-Freeplay']
 		['Bopeebo', 'Fresh', 'Dad Battle'],
 		['Spookeez', 'South', "Monster"],
 		['Pico', 'Philly Nice', "Blammed"],
@@ -40,6 +43,10 @@ class StoryMenuState extends MusicBeatState
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
 		['dad', 'bf', 'gf'],
 		['spooky', 'bf', 'gf'],
 		['pico', 'bf', 'gf'],
@@ -52,6 +59,10 @@ class StoryMenuState extends MusicBeatState
 		"",
 		"Daddy Dearest",
 		"Spooky Month",
+		"Week WF",
+		"Week WF-Hard",
+		"Week WF-Easy",
+		"Week WF-Freeplay"
 		"PICO",
 		"MOMMY MUST MURDER",
 		"RED SNOW",
