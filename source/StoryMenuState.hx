@@ -32,6 +32,10 @@ class StoryMenuState extends MusicBeatState
 		['Satin Panties', "High", "Milf"],
 		['Cocoa', 'Eggnog', 'Winter Horrorland'],
 		['Senpai', 'Roses', 'Thorns']
+		['Nightshift', 'Flashinglights', 'Shadows'],
+		['Nightshift-Hard', 'Flashinglights-Hard', 'Shadows-Hard'],
+		['Nightshift-Easy', 'Flashinglights-Easy', 'Shadows-Easy'],
+		['Nightshift-Freeplay', 'Flashinglights-Freeplay', 'Shadows-Freeplay']
 	];
 	var curDifficulty:Int = 1;
 
@@ -45,6 +49,10 @@ class StoryMenuState extends MusicBeatState
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
 		['senpai', 'bf', 'gf']
+		['witheredfreddy', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
+		['witheredfreddy', 'bf', 'gf'],
 	];
 
 	var weekNames:Array<String> = [
@@ -55,6 +63,10 @@ class StoryMenuState extends MusicBeatState
 		"MOMMY MUST MURDER",
 		"RED SNOW",
 		"Hating Simulator ft. Moawling"
+		"Week WF",
+		"Week WF-Hard",
+		"Week WF-Easy",
+		"Week WF-Freeplay"
 	];
 
 	var txtWeekTitle:FlxText;
