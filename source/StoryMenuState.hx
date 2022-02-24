@@ -26,11 +26,15 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
+		['Nightshift', 'Flashinglights', 'Shadows'],
 		['Bopeebo', 'Fresh', 'Dad Battle'],
+		['Nightshift-Easy', 'Flashinglights-Easy', 'Shadows-Easy'],
 		['Spookeez', 'South', "Monster"],
 		['Pico', 'Philly Nice', "Blammed"],
+		['Nightshift-Hard', 'Flashinglights-Hard', 'Shadows-Hard'],
 		['Satin Panties', "High", "Milf"],
 		['Cocoa', 'Eggnog', 'Winter Horrorland'],
+		['Nightshift-Freeplay', 'Flashinglights-Freeplay', 'Shadows-Freeplay']
 		['Senpai', 'Roses', 'Thorns']
 	];
 	var curDifficulty:Int = 1;
