@@ -747,7 +747,7 @@ class PlayState extends MusicBeatState
 					defaultCamZoom = 0.8;
 					curStage = 'diningarea';
 					var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freddystage/stageback','shared'));
-				        bg.setGraphicSize(Std.int(bg.width / 0.9));
+				    bg.setGraphicSize(Std.int(bg.width / 0.9));
 
 					bg.x = -600; {
 					bg.y = -200;
@@ -797,8 +797,7 @@ class PlayState extends MusicBeatState
 				add(animatronicsbg);
 				
 				
-	
-                                        balloons = new FlxSprite().loadGraphic(Paths.image('freddystage/stagecurtains','shared'));
+				balloons = new FlxSprite().loadGraphic(Paths.image('freddystage/stagecurtains','shared'));
 					balloons.setGraphicSize(Std.int(balloons.width * 0));
 					balloons.x = -580;
 					balloons.y = -200;
@@ -828,7 +827,7 @@ class PlayState extends MusicBeatState
                  // MINIGAME 1 BACKGROUND
                  
                  
-                                minigameone = new FlxSprite().loadGraphic(Paths.image('shadowbonniebgs/sb','shared'));
+                minigameone = new FlxSprite().loadGraphic(Paths.image('shadowbonniebgs/sb','shared'));
 				minigameone.setGraphicSize(Std.int(minigameone.width * 1.7));
 				minigameone.x = 0;
 				minigameone.y = 0;
@@ -869,8 +868,8 @@ class PlayState extends MusicBeatState
 				add(purplething);
 				
 				cover = new FlxSprite(0, 0);
-		                cover.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-		                cover.setGraphicSize(Std.int(minigamefive.width * 7));
+		        cover.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+		        cover.setGraphicSize(Std.int(minigamefive.width * 7));
 				add(cover);
 				cover.alpha = 1;
 
@@ -885,7 +884,7 @@ class PlayState extends MusicBeatState
 				}
 			default:
 			{
-			                defaultCamZoom = 0.9;
+			           defaultCamZoom = 0.9;
 					curStage = 'stage';
 					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('stageback'));
 					bg.antialiasing = true;
