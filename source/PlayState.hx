@@ -747,7 +747,7 @@ class PlayState extends MusicBeatState
 					defaultCamZoom = 0.8;
 					curStage = 'diningarea';
 					var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freddystage/stageback','shared'));
-				    bg.setGraphicSize(Std.int(bg.width / 0.9));
+				        bg.setGraphicSize(Std.int(bg.width / 0.9));
 
 					bg.x = -600; {
 					bg.y = -200;
@@ -797,7 +797,8 @@ class PlayState extends MusicBeatState
 				add(animatronicsbg);
 				
 				
-				balloons = new FlxSprite().loadGraphic(Paths.image('freddystage/stagecurtains','shared'));
+	
+                                        balloons = new FlxSprite().loadGraphic(Paths.image('freddystage/stagecurtains','shared'));
 					balloons.setGraphicSize(Std.int(balloons.width * 0));
 					balloons.x = -580;
 					balloons.y = -200;
