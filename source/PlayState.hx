@@ -453,7 +453,7 @@ class PlayState extends MusicBeatState
 					// var cityLights:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.win0.png);
 
 					var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.image('philly/street','week3'));
-					add(street)
+					add(street);
 			    }
 			// WITHERED FREDDY STAGE 1
 			case 'diningarea':
