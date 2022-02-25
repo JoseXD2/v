@@ -490,7 +490,7 @@ class PlayState extends MusicBeatState
 			case 'limo':
 			{
 					curStage = 'limo';
-					defaultCamZoom = 0.90;
+					defaultCamZoom = 0.89;
 
 					var skyBG:FlxSprite = new FlxSprite(-120, -50).loadGraphic(Paths.image('limo/limoSunset','week4'));
 					skyBG.scrollFactor.set(0.1, 0.1);
