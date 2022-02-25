@@ -1,15 +1,7 @@
 package;
 
-import openfl.ui.KeyLocation;
-import openfl.events.Event;
-import haxe.EnumTools;
-import openfl.ui.Keyboard;
-import openfl.events.KeyboardEvent;
-import Replay.Ana;
-import Replay.Analysis;
-/*#if cpp
-import webm.WebmPlayer;
-#end*/
+import flixel.addons.effects.chainable.FlxGlitchEffect;
+import flixel.ui.FlxButton;
 import flixel.input.keyboard.FlxKey;
 import haxe.Exception;
 import openfl.geom.Matrix;
@@ -63,6 +55,7 @@ import lime.utils.Assets;
 import openfl.display.BlendMode;
 import openfl.display.StageQuality;
 import openfl.filters.ShaderFilter;
+
 #if mobileC
 import mobile.Mobilecontrols;
 #end
@@ -490,7 +483,7 @@ class PlayState extends MusicBeatState
 			case 'limo':
 			{
 					curStage = 'limo';
-					defaultCamZoom = 0.89;
+					defaultCamZoom = 0.90;
 
 					var skyBG:FlxSprite = new FlxSprite(-120, -50).loadGraphic(Paths.image('limo/limoSunset','week4'));
 					skyBG.scrollFactor.set(0.1, 0.1);
