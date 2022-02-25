@@ -454,10 +454,10 @@ class PlayState extends MusicBeatState
 
 					var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.image('philly/street','week3'));
 					add(street);
-			    }
+			 }
 			// WITHERED FREDDY STAGE 1
 			case 'diningarea':
-				{
+			{
 					defaultCamZoom = 0.8;
 					curStage = 'diningarea';
 					var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freddystage/stageback','shared'));
