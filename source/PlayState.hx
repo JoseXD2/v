@@ -714,6 +714,13 @@ class PlayState extends MusicBeatState
 								add(waveSpriteFG);
 						*/
 			}
+			// WITHERED FREDDY STAGE 1
+			case 'diningarea':
+				{
+				
+				
+			
+			}
 			case 'stage':
 				{
 						defaultCamZoom = 0.9;
