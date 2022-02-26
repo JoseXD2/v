@@ -747,7 +747,17 @@ class PlayState extends MusicBeatState
 					balloons.setGraphicSize(Std.int(balloons.width * 0));
 					balloons.x = -580;
 					balloons.y = -200;
-					balloons.visible = true;		
+					balloons.visible = true;
+					
+						
+						
+						
+						
+						
+						
+						
+						
+					
 			{
 			case 'stage':
 				{
